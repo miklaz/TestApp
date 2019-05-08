@@ -1,0 +1,9 @@
+
+/* Class = "UINavigationItem"; title = "Menu"; ObjectID = "KoF-dl-WxM"; */
+"KoF-dl-WxM.title" = "Menu";
+
+/* Class = "UIButton"; normalTitle = "Touch"; ObjectID = "TU6-6z-Qiu"; */
+"TU6-6z-Qiu.normalTitle" = "Touch";
+
+/* Class = "UIButton"; normalTitle = "🎃"; ObjectID = "ncc-yi-c6r"; */
+"ncc-yi-c6r.normalTitle" = "🎃";
