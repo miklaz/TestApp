@@ -10,24 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
-    @IBOutlet weak var ColorModTouchT: UIButton!
-    
-    @IBAction func TestTouch(_ sender: UIButton) {
-        print ("Tap")
-    }
-    /*
-    func changeBackground (sender: UIButton, emoji: String) {
-        sender.setTitle("", for: .normal)
-        sender.backgroundColor = .orange
-    } */
-    
-   
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        //self.ColorModTouchT.setTitleColor(.green, for: .normal)
-    }
 
+    var touchStatus = false , fTouchStatus = false, rgbStatus = false, bAndWStatus = false
+    var mSkeakStatus = false, fSpeakStatus = false, miniJackStatus = false, microphoneStatus = false
+    var buttonsStatus = false, chargeStatus = false, vibrationStatus = false, touchIDStatus = false
+    var accelerStatus = false, gyroStatus = false, compassStatus = false, distSenStatus = false
+    var lightSenStatus = false, rearCamStatus = false, frontCamStatus = false, flashStatus = false
+    var celluarStatus = false, wifiStatus = false, bluetoothStatus = false, gpsStatus = false
+
+  
 
 }
 

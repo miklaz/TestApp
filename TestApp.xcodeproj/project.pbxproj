@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120F348E22889AA600D0CED4 /* ForceTouchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120F348D22889AA600D0CED4 /* ForceTouchGestureRecognizer.swift */; };
+		120F349222889C6300D0CED4 /* ForceTouchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120F349122889C6300D0CED4 /* ForceTouchVC.swift */; };
+		121D0E6C228C292800495136 /* FaceID_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D0E6B228C292800495136 /* FaceID_VC.swift */; };
+		125386162289526C00CA4AB8 /* MicrophoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125386152289526C00CA4AB8 /* MicrophoneVC.swift */; };
+		1253861A2289712D00CA4AB8 /* testSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 125386192289712D00CA4AB8 /* testSound.mp3 */; };
+		1253861C2289719C00CA4AB8 /* MSpeakVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253861B2289719C00CA4AB8 /* MSpeakVC.swift */; };
+		125386202289783300CA4AB8 /* playButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1253861F2289783300CA4AB8 /* playButton.jpg */; };
+		125AB5BB2286F1EE002E6E94 /* RGB_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125AB5BA2286F1EE002E6E94 /* RGB_VC.swift */; };
+		125C8355228AF41700A89E7A /* testSound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 125C8354228AF41700A89E7A /* testSound2.mp3 */; };
+		125C8357228B081000A89E7A /* GPS_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C8356228B081000A89E7A /* GPS_VC.swift */; };
+		126835A2228706130018371E /* BAndW_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126835A1228706130018371E /* BAndW_VC.swift */; };
 		127EA036226E329400D9BDA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127EA035226E329400D9BDA6 /* AppDelegate.swift */; };
 		127EA038226E329400D9BDA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127EA037226E329400D9BDA6 /* ViewController.swift */; };
 		127EA03B226E329400D9BDA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127EA039226E329400D9BDA6 /* Main.storyboard */; };
 		127EA03D226E329400D9BDA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127EA03C226E329400D9BDA6 /* Assets.xcassets */; };
 		127EA040226E329400D9BDA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127EA03E226E329400D9BDA6 /* LaunchScreen.storyboard */; };
-		127EA048226E369700D9BDA6 /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127EA047226E369700D9BDA6 /* TouchViewController.swift */; };
 		12DAABCF2281921E003174A2 /* ScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DAABCE2281921E003174A2 /* ScaleView.swift */; };
 		12E7FD97227081EE008438BC /* Kitti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12E7FD96227081EE008438BC /* Kitti.jpg */; };
-		12E7FD99227087F9008438BC /* ForceTouchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7FD98227087F9008438BC /* ForceTouchVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		120F348D22889AA600D0CED4 /* ForceTouchGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchGestureRecognizer.swift; sourceTree = "<group>"; };
+		120F349122889C6300D0CED4 /* ForceTouchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForceTouchVC.swift; path = ../ForceTouchVC.swift; sourceTree = "<group>"; };
+		121D0E6B228C292800495136 /* FaceID_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceID_VC.swift; sourceTree = "<group>"; };
+		125386152289526C00CA4AB8 /* MicrophoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneVC.swift; sourceTree = "<group>"; };
+		125386192289712D00CA4AB8 /* testSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = testSound.mp3; sourceTree = "<group>"; };
+		1253861B2289719C00CA4AB8 /* MSpeakVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSpeakVC.swift; sourceTree = "<group>"; };
+		1253861F2289783300CA4AB8 /* playButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playButton.jpg; sourceTree = "<group>"; };
+		125AB5BA2286F1EE002E6E94 /* RGB_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB_VC.swift; sourceTree = "<group>"; };
+		125C8354228AF41700A89E7A /* testSound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = testSound2.mp3; sourceTree = "<group>"; };
+		125C8356228B081000A89E7A /* GPS_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_VC.swift; sourceTree = "<group>"; };
+		126835A1228706130018371E /* BAndW_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAndW_VC.swift; sourceTree = "<group>"; };
 		127EA032226E329400D9BDA6 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		127EA035226E329400D9BDA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		127EA037226E329400D9BDA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,10 +46,8 @@
 		127EA03C226E329400D9BDA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		127EA03F226E329400D9BDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		127EA041226E329400D9BDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		127EA047226E369700D9BDA6 /* TouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
 		12DAABCE2281921E003174A2 /* ScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
 		12E7FD96227081EE008438BC /* Kitti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kitti.jpg; sourceTree = "<group>"; };
-		12E7FD98227087F9008438BC /* ForceTouchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +80,22 @@
 		127EA034226E329400D9BDA6 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				127EA039226E329400D9BDA6 /* Main.storyboard */,
 				127EA035226E329400D9BDA6 /* AppDelegate.swift */,
 				127EA037226E329400D9BDA6 /* ViewController.swift */,
-				127EA047226E369700D9BDA6 /* TouchViewController.swift */,
-				12E7FD98227087F9008438BC /* ForceTouchVC.swift */,
-				127EA039226E329400D9BDA6 /* Main.storyboard */,
+				120F349122889C6300D0CED4 /* ForceTouchVC.swift */,
+				120F348D22889AA600D0CED4 /* ForceTouchGestureRecognizer.swift */,
 				12DAABCE2281921E003174A2 /* ScaleView.swift */,
+				125AB5BA2286F1EE002E6E94 /* RGB_VC.swift */,
+				126835A1228706130018371E /* BAndW_VC.swift */,
+				125386152289526C00CA4AB8 /* MicrophoneVC.swift */,
+				1253861B2289719C00CA4AB8 /* MSpeakVC.swift */,
+				121D0E6B228C292800495136 /* FaceID_VC.swift */,
+				125C8356228B081000A89E7A /* GPS_VC.swift */,
 				12E7FD96227081EE008438BC /* Kitti.jpg */,
+				1253861F2289783300CA4AB8 /* playButton.jpg */,
+				125386192289712D00CA4AB8 /* testSound.mp3 */,
+				125C8354228AF41700A89E7A /* testSound2.mp3 */,
 				127EA03C226E329400D9BDA6 /* Assets.xcassets */,
 				127EA03E226E329400D9BDA6 /* LaunchScreen.storyboard */,
 				127EA041226E329400D9BDA6 /* Info.plist */,
@@ -136,6 +163,9 @@
 			files = (
 				127EA040226E329400D9BDA6 /* LaunchScreen.storyboard in Resources */,
 				12E7FD97227081EE008438BC /* Kitti.jpg in Resources */,
+				1253861A2289712D00CA4AB8 /* testSound.mp3 in Resources */,
+				125C8355228AF41700A89E7A /* testSound2.mp3 in Resources */,
+				125386202289783300CA4AB8 /* playButton.jpg in Resources */,
 				127EA03D226E329400D9BDA6 /* Assets.xcassets in Resources */,
 				127EA03B226E329400D9BDA6 /* Main.storyboard in Resources */,
 			);
@@ -148,11 +178,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E7FD99227087F9008438BC /* ForceTouchVC.swift in Sources */,
+				120F349222889C6300D0CED4 /* ForceTouchVC.swift in Sources */,
+				1253861C2289719C00CA4AB8 /* MSpeakVC.swift in Sources */,
+				126835A2228706130018371E /* BAndW_VC.swift in Sources */,
+				125386162289526C00CA4AB8 /* MicrophoneVC.swift in Sources */,
 				127EA038226E329400D9BDA6 /* ViewController.swift in Sources */,
+				125AB5BB2286F1EE002E6E94 /* RGB_VC.swift in Sources */,
+				121D0E6C228C292800495136 /* FaceID_VC.swift in Sources */,
 				12DAABCF2281921E003174A2 /* ScaleView.swift in Sources */,
 				127EA036226E329400D9BDA6 /* AppDelegate.swift in Sources */,
-				127EA048226E369700D9BDA6 /* TouchViewController.swift in Sources */,
+				120F348E22889AA600D0CED4 /* ForceTouchGestureRecognizer.swift in Sources */,
+				125C8357228B081000A89E7A /* GPS_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
