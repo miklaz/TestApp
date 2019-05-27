@@ -10,8 +10,25 @@
 		120F348E22889AA600D0CED4 /* ForceTouchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120F348D22889AA600D0CED4 /* ForceTouchGestureRecognizer.swift */; };
 		120F349222889C6300D0CED4 /* ForceTouchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120F349122889C6300D0CED4 /* ForceTouchVC.swift */; };
 		121D0E6C228C292800495136 /* FaceID_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D0E6B228C292800495136 /* FaceID_VC.swift */; };
+		1222729F2298629300272F81 /* ChargeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1222729E2298629300272F81 /* ChargeVC.swift */; };
+		122272A1229864A800272F81 /* FSpeakVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272A0229864A800272F81 /* FSpeakVC.swift */; };
+		122272A3229864CF00272F81 /* MiniJackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272A2229864CF00272F81 /* MiniJackVC.swift */; };
+		122272A522987C9300272F81 /* TouchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272A422987C9300272F81 /* TouchVC.swift */; };
+		122272A722987CD600272F81 /* ButtonsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272A622987CD600272F81 /* ButtonsVC.swift */; };
+		122272AB22987D5F00272F81 /* VibrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272AA22987D5F00272F81 /* VibrationVC.swift */; };
+		122272AE22987DF000272F81 /* AccelerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272AD22987DF000272F81 /* AccelerVC.swift */; };
+		122272B022987E3400272F81 /* GyroscopeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272AF22987E3400272F81 /* GyroscopeVC.swift */; };
+		122272B222987E5900272F81 /* CompassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272B122987E5900272F81 /* CompassVC.swift */; };
+		122272B4229880D100272F81 /* DistanseSenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272B3229880D100272F81 /* DistanseSenVC.swift */; };
+		122272B62298811900272F81 /* LightSenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272B52298811900272F81 /* LightSenVC.swift */; };
+		122272B9229881AD00272F81 /* RearCameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272B8229881AD00272F81 /* RearCameraVC.swift */; };
+		122272BB229881C800272F81 /* FrontCameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272BA229881C800272F81 /* FrontCameraVC.swift */; };
+		122272BF2298826400272F81 /* CelluarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272BE2298826400272F81 /* CelluarVC.swift */; };
+		122272C12298827A00272F81 /* WiFiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272C02298827A00272F81 /* WiFiVC.swift */; };
+		122272C32298829D00272F81 /* BluetoothVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272C22298829D00272F81 /* BluetoothVC.swift */; };
+		122272C522988E7E00272F81 /* CheckModelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122272C422988E7E00272F81 /* CheckModelVC.swift */; };
+		124CE94822980FA00061566D /* FlashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124CE94722980FA00061566D /* FlashVC.swift */; };
 		125386162289526C00CA4AB8 /* MicrophoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125386152289526C00CA4AB8 /* MicrophoneVC.swift */; };
-		1253861A2289712D00CA4AB8 /* testSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 125386192289712D00CA4AB8 /* testSound.mp3 */; };
 		1253861C2289719C00CA4AB8 /* MSpeakVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253861B2289719C00CA4AB8 /* MSpeakVC.swift */; };
 		125386202289783300CA4AB8 /* playButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1253861F2289783300CA4AB8 /* playButton.jpg */; };
 		125AB5BB2286F1EE002E6E94 /* RGB_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125AB5BA2286F1EE002E6E94 /* RGB_VC.swift */; };
@@ -29,10 +46,27 @@
 
 /* Begin PBXFileReference section */
 		120F348D22889AA600D0CED4 /* ForceTouchGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchGestureRecognizer.swift; sourceTree = "<group>"; };
-		120F349122889C6300D0CED4 /* ForceTouchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForceTouchVC.swift; path = ../ForceTouchVC.swift; sourceTree = "<group>"; };
+		120F349122889C6300D0CED4 /* ForceTouchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchVC.swift; sourceTree = "<group>"; };
 		121D0E6B228C292800495136 /* FaceID_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceID_VC.swift; sourceTree = "<group>"; };
+		1222729E2298629300272F81 /* ChargeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeVC.swift; sourceTree = "<group>"; };
+		122272A0229864A800272F81 /* FSpeakVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSpeakVC.swift; sourceTree = "<group>"; };
+		122272A2229864CF00272F81 /* MiniJackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniJackVC.swift; sourceTree = "<group>"; };
+		122272A422987C9300272F81 /* TouchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchVC.swift; sourceTree = "<group>"; };
+		122272A622987CD600272F81 /* ButtonsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsVC.swift; sourceTree = "<group>"; };
+		122272AA22987D5F00272F81 /* VibrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationVC.swift; sourceTree = "<group>"; };
+		122272AD22987DF000272F81 /* AccelerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerVC.swift; sourceTree = "<group>"; };
+		122272AF22987E3400272F81 /* GyroscopeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroscopeVC.swift; sourceTree = "<group>"; };
+		122272B122987E5900272F81 /* CompassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassVC.swift; sourceTree = "<group>"; };
+		122272B3229880D100272F81 /* DistanseSenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanseSenVC.swift; sourceTree = "<group>"; };
+		122272B52298811900272F81 /* LightSenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSenVC.swift; sourceTree = "<group>"; };
+		122272B8229881AD00272F81 /* RearCameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RearCameraVC.swift; sourceTree = "<group>"; };
+		122272BA229881C800272F81 /* FrontCameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontCameraVC.swift; sourceTree = "<group>"; };
+		122272BE2298826400272F81 /* CelluarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelluarVC.swift; sourceTree = "<group>"; };
+		122272C02298827A00272F81 /* WiFiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiVC.swift; sourceTree = "<group>"; };
+		122272C22298829D00272F81 /* BluetoothVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothVC.swift; sourceTree = "<group>"; };
+		122272C422988E7E00272F81 /* CheckModelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckModelVC.swift; sourceTree = "<group>"; };
+		124CE94722980FA00061566D /* FlashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashVC.swift; sourceTree = "<group>"; };
 		125386152289526C00CA4AB8 /* MicrophoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneVC.swift; sourceTree = "<group>"; };
-		125386192289712D00CA4AB8 /* testSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = testSound.mp3; sourceTree = "<group>"; };
 		1253861B2289719C00CA4AB8 /* MSpeakVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSpeakVC.swift; sourceTree = "<group>"; };
 		1253861F2289783300CA4AB8 /* playButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playButton.jpg; sourceTree = "<group>"; };
 		125AB5BA2286F1EE002E6E94 /* RGB_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB_VC.swift; sourceTree = "<group>"; };
@@ -61,6 +95,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1210DB2A2295749900A07C69 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				125C8354228AF41700A89E7A /* testSound2.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		1210DB2B229574B500A07C69 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				12E7FD96227081EE008438BC /* Kitti.jpg */,
+				1253861F2289783300CA4AB8 /* playButton.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		122272A822987CE100272F81 /* Display(1) */ = {
+			isa = PBXGroup;
+			children = (
+				122272A422987C9300272F81 /* TouchVC.swift */,
+				120F349122889C6300D0CED4 /* ForceTouchVC.swift */,
+				120F348D22889AA600D0CED4 /* ForceTouchGestureRecognizer.swift */,
+				12DAABCE2281921E003174A2 /* ScaleView.swift */,
+				125AB5BA2286F1EE002E6E94 /* RGB_VC.swift */,
+				126835A1228706130018371E /* BAndW_VC.swift */,
+			);
+			path = "Display(1)";
+			sourceTree = "<group>";
+		};
+		122272A922987D1A00272F81 /* Sound(2) */ = {
+			isa = PBXGroup;
+			children = (
+				1253861B2289719C00CA4AB8 /* MSpeakVC.swift */,
+				122272A0229864A800272F81 /* FSpeakVC.swift */,
+				122272A2229864CF00272F81 /* MiniJackVC.swift */,
+				125386152289526C00CA4AB8 /* MicrophoneVC.swift */,
+			);
+			path = "Sound(2)";
+			sourceTree = "<group>";
+		};
+		122272AC22987D9000272F81 /* Other(3) */ = {
+			isa = PBXGroup;
+			children = (
+				122272A622987CD600272F81 /* ButtonsVC.swift */,
+				1222729E2298629300272F81 /* ChargeVC.swift */,
+				122272AA22987D5F00272F81 /* VibrationVC.swift */,
+				121D0E6B228C292800495136 /* FaceID_VC.swift */,
+			);
+			path = "Other(3)";
+			sourceTree = "<group>";
+		};
+		122272B72298812000272F81 /* Sensors(4-5) */ = {
+			isa = PBXGroup;
+			children = (
+				122272AD22987DF000272F81 /* AccelerVC.swift */,
+				122272AF22987E3400272F81 /* GyroscopeVC.swift */,
+				122272B122987E5900272F81 /* CompassVC.swift */,
+				122272B3229880D100272F81 /* DistanseSenVC.swift */,
+				122272B52298811900272F81 /* LightSenVC.swift */,
+			);
+			path = "Sensors(4-5)";
+			sourceTree = "<group>";
+		};
+		122272BC229881CE00272F81 /* Camera(5) */ = {
+			isa = PBXGroup;
+			children = (
+				122272B8229881AD00272F81 /* RearCameraVC.swift */,
+				122272BA229881C800272F81 /* FrontCameraVC.swift */,
+				124CE94722980FA00061566D /* FlashVC.swift */,
+			);
+			path = "Camera(5)";
+			sourceTree = "<group>";
+		};
+		122272BD2298822800272F81 /* Сonnection(6) */ = {
+			isa = PBXGroup;
+			children = (
+				122272BE2298826400272F81 /* CelluarVC.swift */,
+				122272C02298827A00272F81 /* WiFiVC.swift */,
+				122272C22298829D00272F81 /* BluetoothVC.swift */,
+				125C8356228B081000A89E7A /* GPS_VC.swift */,
+			);
+			path = "Сonnection(6)";
+			sourceTree = "<group>";
+		};
 		127EA029226E329300D9BDA6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,22 +200,18 @@
 			isa = PBXGroup;
 			children = (
 				127EA039226E329400D9BDA6 /* Main.storyboard */,
+				122272C422988E7E00272F81 /* CheckModelVC.swift */,
 				127EA035226E329400D9BDA6 /* AppDelegate.swift */,
 				127EA037226E329400D9BDA6 /* ViewController.swift */,
-				120F349122889C6300D0CED4 /* ForceTouchVC.swift */,
-				120F348D22889AA600D0CED4 /* ForceTouchGestureRecognizer.swift */,
-				12DAABCE2281921E003174A2 /* ScaleView.swift */,
-				125AB5BA2286F1EE002E6E94 /* RGB_VC.swift */,
-				126835A1228706130018371E /* BAndW_VC.swift */,
-				125386152289526C00CA4AB8 /* MicrophoneVC.swift */,
-				1253861B2289719C00CA4AB8 /* MSpeakVC.swift */,
-				121D0E6B228C292800495136 /* FaceID_VC.swift */,
-				125C8356228B081000A89E7A /* GPS_VC.swift */,
-				12E7FD96227081EE008438BC /* Kitti.jpg */,
-				1253861F2289783300CA4AB8 /* playButton.jpg */,
-				125386192289712D00CA4AB8 /* testSound.mp3 */,
-				125C8354228AF41700A89E7A /* testSound2.mp3 */,
+				122272A822987CE100272F81 /* Display(1) */,
+				122272A922987D1A00272F81 /* Sound(2) */,
+				122272AC22987D9000272F81 /* Other(3) */,
+				122272B72298812000272F81 /* Sensors(4-5) */,
+				122272BC229881CE00272F81 /* Camera(5) */,
+				122272BD2298822800272F81 /* Сonnection(6) */,
+				1210DB2B229574B500A07C69 /* Images */,
 				127EA03C226E329400D9BDA6 /* Assets.xcassets */,
+				1210DB2A2295749900A07C69 /* Audio */,
 				127EA03E226E329400D9BDA6 /* LaunchScreen.storyboard */,
 				127EA041226E329400D9BDA6 /* Info.plist */,
 			);
@@ -163,7 +278,6 @@
 			files = (
 				127EA040226E329400D9BDA6 /* LaunchScreen.storyboard in Resources */,
 				12E7FD97227081EE008438BC /* Kitti.jpg in Resources */,
-				1253861A2289712D00CA4AB8 /* testSound.mp3 in Resources */,
 				125C8355228AF41700A89E7A /* testSound2.mp3 in Resources */,
 				125386202289783300CA4AB8 /* playButton.jpg in Resources */,
 				127EA03D226E329400D9BDA6 /* Assets.xcassets in Resources */,
@@ -178,17 +292,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122272C12298827A00272F81 /* WiFiVC.swift in Sources */,
 				120F349222889C6300D0CED4 /* ForceTouchVC.swift in Sources */,
 				1253861C2289719C00CA4AB8 /* MSpeakVC.swift in Sources */,
+				122272C32298829D00272F81 /* BluetoothVC.swift in Sources */,
 				126835A2228706130018371E /* BAndW_VC.swift in Sources */,
+				122272AB22987D5F00272F81 /* VibrationVC.swift in Sources */,
+				122272B62298811900272F81 /* LightSenVC.swift in Sources */,
+				122272A722987CD600272F81 /* ButtonsVC.swift in Sources */,
 				125386162289526C00CA4AB8 /* MicrophoneVC.swift in Sources */,
+				122272A522987C9300272F81 /* TouchVC.swift in Sources */,
+				122272B222987E5900272F81 /* CompassVC.swift in Sources */,
 				127EA038226E329400D9BDA6 /* ViewController.swift in Sources */,
+				1222729F2298629300272F81 /* ChargeVC.swift in Sources */,
+				122272B4229880D100272F81 /* DistanseSenVC.swift in Sources */,
+				122272A1229864A800272F81 /* FSpeakVC.swift in Sources */,
+				122272A3229864CF00272F81 /* MiniJackVC.swift in Sources */,
 				125AB5BB2286F1EE002E6E94 /* RGB_VC.swift in Sources */,
 				121D0E6C228C292800495136 /* FaceID_VC.swift in Sources */,
+				124CE94822980FA00061566D /* FlashVC.swift in Sources */,
+				122272B9229881AD00272F81 /* RearCameraVC.swift in Sources */,
+				122272C522988E7E00272F81 /* CheckModelVC.swift in Sources */,
+				122272BB229881C800272F81 /* FrontCameraVC.swift in Sources */,
 				12DAABCF2281921E003174A2 /* ScaleView.swift in Sources */,
 				127EA036226E329400D9BDA6 /* AppDelegate.swift in Sources */,
+				122272B022987E3400272F81 /* GyroscopeVC.swift in Sources */,
+				122272AE22987DF000272F81 /* AccelerVC.swift in Sources */,
 				120F348E22889AA600D0CED4 /* ForceTouchGestureRecognizer.swift in Sources */,
 				125C8357228B081000A89E7A /* GPS_VC.swift in Sources */,
+				122272BF2298826400272F81 /* CelluarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6888952VPD;
 				INFOPLIST_FILE = TestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,6 +488,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6888952VPD;
 				INFOPLIST_FILE = TestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,5 +1,5 @@
 //
-//  RGB_VS.swift
+//  RGB_VC.swift
 //  TestApp
 //
 //  Created by Михаил Зайцев on 11/05/2019.
@@ -8,22 +8,22 @@
 
 import UIKit
 
-class RGB_VS: UIViewController {
+class RGB_VC: UIViewController {
 
     @IBOutlet weak var colorView: UIView!
     @IBOutlet weak var segmentControl: UISegmentedControl!
     @IBOutlet weak var finishButton: UIButton!
     @IBOutlet weak var hideItems: UILabel!
     
-    var colorOpt = [UIColor.red, UIColor.green, UIColor.blue]
-    var colorOptItem = [UIColor.white, UIColor.black, UIColor.white]
+    
+    let colorOpt = [UIColor.red, UIColor.green, UIColor.blue]
+    let colorOptItem = [UIColor.white, UIColor.black, UIColor.white]
     var isBleach = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTap))
         self.colorView.addGestureRecognizer(tapGestureRecognizer)
-        // Do any additional setup after loading the view.
     }
     
     @objc func handleTap() {

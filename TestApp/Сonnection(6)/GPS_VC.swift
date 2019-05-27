@@ -17,8 +17,6 @@ class GPS_VC: UIViewController {
     @IBOutlet weak var yesButton: UIButton!
     @IBOutlet weak var statusLabel: UILabel!
     
-    
-    
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
@@ -64,6 +62,7 @@ class GPS_VC: UIViewController {
             print ("Oops...")
         }
     }
+    
     func showAlertLocation (title: String, message:String?,url:URL?) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
@@ -99,6 +98,7 @@ class GPS_VC: UIViewController {
     
     
 }
+
 
 extension GPS_VC:CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {

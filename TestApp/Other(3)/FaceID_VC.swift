@@ -21,9 +21,7 @@ class FaceID_VC: UIViewController {
         
         self.statusLabel.text = ""
         self.finishButton.alpha = 0
-        
     }
-    
     
     
     @IBAction func touchID(_ sender: Any) {
@@ -33,7 +31,6 @@ class FaceID_VC: UIViewController {
             context.evaluatePolicy(LAPolicy.deviceOwnerAuthenticationWithBiometrics, localizedReason: "We want to login with your finger print or face", reply: { (wasCorrrct, error) in
                 if wasCorrrct {
                     print("Correct")
-
                     DispatchQueue.main.async {
                     self.statusLabel.text = "Good, TouchID/FaceID works!"
                     self.finishButton.alpha = 1
@@ -43,14 +40,17 @@ class FaceID_VC: UIViewController {
                 else {
                     print("Incorrect")
                     DispatchQueue.main.async {
-                    self.statusLabel.text = "Oops... it looks like TouchID/FaceID doesn't work :("
+                    self.statusLabel.text = "Oops... it looks like TouchID/FaceID doesn't work :(  Maybe again?"
                     self.finishButton.alpha = 1
                     }
                 }
             })
         }
         else {
-            print ("Lol")        }
+            print ("Doesn't work")
+            self.statusLabel.text = "Oops... it looks like TouchID/FaceID doesn't work :("
+            self.finishButton.alpha = 1
+        }
     }
     
 }
