@@ -13,6 +13,7 @@ class GyroscopeVC: UIViewController {
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var finishButton: UIButton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         statusLabel.text = "Shake your devise"

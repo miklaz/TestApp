@@ -34,7 +34,7 @@ class GPS_VC: UIViewController {
             setupManager ()
             checkAutorization()        }
         else {
-            showAlertLocation (title: "You have geolocation turned off", message: "Want to turn on?", url: URL(string: "App-Prefs:root=LOCATION_SERVICES"))
+            showAlertLocation (title: "You have geolocation turned off", message: "Want to turn on?", url: URL(string: "App-Precfs:root=LOCATION_SERVICES"))
         }
     }
     
@@ -95,8 +95,6 @@ class GPS_VC: UIViewController {
         self.statusLabel.text = "Oops... it looks like GPS doesn't work :("
     }
     
-    
-    
 }
 
 
@@ -110,5 +108,6 @@ extension GPS_VC:CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         checkAutorization()
     }
+    
 }
 

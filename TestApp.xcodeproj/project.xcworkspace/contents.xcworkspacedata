@@ -2,6 +2,96 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestApp.xcodeproj">
+      location = "group:3dtouch.png">
+   </FileRef>
+   <FileRef
+      location = "group:Acceler.png">
+   </FileRef>
+   <FileRef
+      location = "group:audiocable.png">
+   </FileRef>
+   <FileRef
+      location = "group:battary.png">
+   </FileRef>
+   <FileRef
+      location = "group:bluetooth.png">
+   </FileRef>
+   <FileRef
+      location = "group:cam.png">
+   </FileRef>
+   <FileRef
+      location = "group:cell.png">
+   </FileRef>
+   <FileRef
+      location = "group:cell2.png">
+   </FileRef>
+   <FileRef
+      location = "group:charge.png">
+   </FileRef>
+   <FileRef
+      location = "group:charge2.png">
+   </FileRef>
+   <FileRef
+      location = "group:compass.png">
+   </FileRef>
+   <FileRef
+      location = "group:distsen.png">
+   </FileRef>
+   <FileRef
+      location = "group:frontcam.png">
+   </FileRef>
+   <FileRef
+      location = "group:frontspeak.png">
+   </FileRef>
+   <FileRef
+      location = "group:gps.png">
+   </FileRef>
+   <FileRef
+      location = "group:gyroscope.png">
+   </FileRef>
+   <FileRef
+      location = "group:icons8-light-on-filled-100.png">
+   </FileRef>
+   <FileRef
+      location = "group:microphone.png">
+   </FileRef>
+   <FileRef
+      location = "group:microphone2.png">
+   </FileRef>
+   <FileRef
+      location = "group:minus.png">
+   </FileRef>
+   <FileRef
+      location = "group:offbutton.png">
+   </FileRef>
+   <FileRef
+      location = "group:plusbutton.png">
+   </FileRef>
+   <FileRef
+      location = "group:rgb.png">
+   </FileRef>
+   <FileRef
+      location = "group:switch.png">
+   </FileRef>
+   <FileRef
+      location = "group:switch2.png">
+   </FileRef>
+   <FileRef
+      location = "group:touch.png">
+   </FileRef>
+   <FileRef
+      location = "group:touchid.png">
+   </FileRef>
+   <FileRef
+      location = "group:vibration.png">
+   </FileRef>
+   <FileRef
+      location = "group:voice.png">
+   </FileRef>
+   <FileRef
+      location = "group:wifi.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

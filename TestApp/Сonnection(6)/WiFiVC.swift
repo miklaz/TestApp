@@ -7,24 +7,39 @@
 //
 
 import UIKit
+import Foundation
 
 class WiFiVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        NotificationCenter.default
+            .addObserver(self,
+                         selector: #selector(statusManager),
+                         name: .flagsChanged,
+                         object: nil)
+        updateUserInterface()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    func updateUserInterface() {
+        switch Network.reachability.status {
+        case .unreachable:
+            view.backgroundColor = .red
+        case .wwan:
+            view.backgroundColor = .yellow
+        case .wifi:
+            view.backgroundColor = .green
+        }
+        print("Reachability Summary")
+        print("Status:", Network.reachability.status)
+        print("HostName:", Network.reachability.hostname ?? "nil")
+        print("Reachable:", Network.reachability.isReachable)
+        print("Wifi:", Network.reachability.isReachableViaWiFi)
     }
-    */
+    
+    @objc func statusManager(_ notification: Notification) {
+        updateUserInterface()
+    }
 
 }

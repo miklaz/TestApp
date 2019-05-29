@@ -14,6 +14,7 @@ class ChargeVC: UIViewController {
     @IBOutlet weak var FinishButton: UIButton!
     @IBOutlet weak var CheckButton: UIButton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         statusLabel.text = ""
@@ -37,6 +38,5 @@ class ChargeVC: UIViewController {
         checkForCharging()
         FinishButton.alpha = 1
     }
-    
     
 }

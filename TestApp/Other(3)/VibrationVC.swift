@@ -14,6 +14,7 @@ class VibrationVC: UIViewController {
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var finishButton: UIButton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         statusLabel.text = "Tap the button for check"
@@ -29,4 +30,5 @@ class VibrationVC: UIViewController {
         //UINotificationFeedbackGenerator().notificationOccurred(.success)
         finishButton.alpha = 1
     }
+    
 }

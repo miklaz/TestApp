@@ -210,6 +210,7 @@ public extension UIDevice {
             }
             return model
         }
+        print (Model.unrecognized)
         return Model.unrecognized
     }
 }

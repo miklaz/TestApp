@@ -23,7 +23,6 @@ class FaceID_VC: UIViewController {
         self.finishButton.alpha = 0
     }
     
-    
     @IBAction func touchID(_ sender: Any) {
         let context:LAContext = LAContext ()
         
